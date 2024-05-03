@@ -1,0 +1,127 @@
+.divMain {
+    position: absolute;
+    width: 800px;
+    left: 200px;
+    bottom: 30px;
+}
+
+.mainDiv{
+    width: 100%;
+    background-color: #ebf2ff;
+    height: 180px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.img {
+    width: 26rem;
+    position: fixed;
+    bottom: 190px;
+    left: 350px;
+    z-index: 100;
+}
+.imgB {
+    width: 20rem;
+    position: fixed;
+    top: 70px;
+    right: 400px;
+    z-index: 100;
+    
+}
+
+b{
+    position: fixed;
+}
+
+select {
+    position: absolute;
+    bottom: 50px;
+    right: -500px;
+    z-index: 200;
+    height: 33px;
+    width: 16rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.detail{
+    border-radius: 10px;
+    border: 5px solid #000;
+    font-size: 33px;
+    background: #ebf2ff;
+    width: 600px;
+    height: 170px;
+    position: fixed;
+    bottom: 250px;
+    right: 120px;
+    font-size: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 7px;
+}
+
+hr {
+    border: 8px solid #00ff4c;
+    width: 80%;
+    margin-left: 55px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.detailB{
+    border-radius: 10px;
+    border: 5px solid #000;
+    position: fixed;
+    top: 70px;
+    left: 100px;
+    font-size: 33px;
+    background: #ebf2ff;
+    width: 600px;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 7px;
+}
+
+.skill{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 40px;
+}
+
+.divSkill{
+    background-color: antiquewhite;
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 5px solid #000;
+}
+
+.stats {
+    position: fixed;
+    bottom: 270px;
+    right: 200px;
+}
+
+.statsB {
+    position: fixed;
+    top: 130px;
+    left: 480px;
+}
